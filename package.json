@@ -1,5 +1,5 @@
 {
-  "name": "evaluation-system",
+  "name": "essay-grader",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/react": "^3.0.118",
+    "@google/genai": "^1.46.0",
+    "ai": "^6.0.116",
     "next": "16.1.7",
+    "ollama": "^0.6.3",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

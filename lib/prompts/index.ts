@@ -1,0 +1,1 @@
+export const ESSAY_GRADER_SYSTEM_PROMPT = `Rate the above essay out of 10 and answer only in single digit number. only return JSON nothing else only parseable JSON no backticks only stringfied JSON, Evaluate the input. Return JSON: {"score": number}`
